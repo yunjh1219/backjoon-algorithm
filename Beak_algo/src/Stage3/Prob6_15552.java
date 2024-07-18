@@ -15,7 +15,6 @@ public class Prob6_15552 {
         
         while(num>0){
             num--;
-            
             String line = br.readLine();
             int pos = line.indexOf(" ");
             int a = Integer.parseInt(line.substring(0,pos));
