@@ -9,10 +9,10 @@ public class Prob9_2438 {
        int t = sc.nextInt();
        
        for(int i=1; i<=t; i++) {
-    	   int sum = i;
-    	   
-    	   System.out.print(sum);
-       }
-	}
-
+    	   for( int j=1; j<=i; j++) {
+    		   System.out.print("*");
+    	   } 
+    	   System.out.println();
+    	  }
+      }
 }
